@@ -1,0 +1,44 @@
+body
+{
+	background: #DDD;
+	background-image: url('http://placehold.it/400/400') no-repeat top left;
+    margin : 0;
+    padding: 0;
+    height: 600px
+}
+
+.container
+{
+	width : 70%;
+	/*height: 600px;*/
+	margin: 0 auto;
+    /*background: green;*/
+    position: relative
+}
+
+.container nav {
+	position: relative;
+	background: #DDD;
+	color : black;
+	overflow: hidden
+}
+.container nav ul {
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	background: cyan;
+	
+}
+.container nav ul li {
+	width : 52px;
+	float : left;
+	margin: 10px;
+	padding: 12px;
+}
+.title {
+	width : 500px;
+	height: auto;
+	margin : 0 auto;
+	background: blue
+}
