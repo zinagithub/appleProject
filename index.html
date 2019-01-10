@@ -20,12 +20,13 @@
 	  	   	     	<li>iTunes</li>
 	  	   	     	<li>support</li>
 	  	   	     	<li><i class = "fa fa-search"></i></li>
+	  	   	     	<li><input onfocus="searchChanger(this)" onblur="searchChanger2(this)" type="text" name="search"></li>
 	  	   	     </ul>
 	  	   	</nav>
 	  	   	<div  class= "title">
-	  	   		<p>What will your verse to be</p>
-	  	   		<p>Every one has some thing to share iPad in their unique way to add to the worls story</p>
-	  	   		<p>Watch the "your verse"</p>
+	  	   		<h1>What will your verse to be?</h1>
+	  	   		<h2>Every one has some thing to share iPad in their unique way to add to the worls story</h2>
+	  	   		<h3>Watch the "Your Verse" film and explore the story</h3>
 	  	   	</div>
 	  </div>
 
@@ -35,21 +36,43 @@
 
 	  <!-- Start KindIphone div-->
 	  <div  class = "kindIphone">
-	  	    <img id = "img1" src="http://placehold.it/300/300" alt ="img1">
-	  	    <img id = "img2" src="http://placehold.it/300/300" alt ="img2">
-	  	    <img id = "img3" src="http://placehold.it/300/300" alt ="img3">
-	  	    <img id = "img4" src="http://placehold.it/300/300" alt ="img4">
+	  	    <img id = "img1" src="img1.jpg" alt ="img1">
+	  	    <img id = "img2" src="img2.jpg" alt ="img2">
+	  	    <img id = "img3" src="img3.jpg" alt ="img3">
+	  	    <img id = "img4" src="img4.jpg" alt ="img4">
 	  </div>
 	  <!-- End KindIphone div -->
 
 
 	  <!-- The Footer-->
 	  <div  class = "footer">
-	  	    <div class = "container">
-	  	    	 <div class = "info"></div>
-	  	    	 <div class = "copyright"></div>
+	  	    <div class = "container1">
+	  	    	 <div class = "info">
+	  	    	 	<p>Shop the Apple Online Store (1-800-MY-APPLE), visit an Apple Retail Store, or find a reseller.<p>
+	  	    	 	<ul>
+			  	    	<li>Site Map</li>
+			  	    	<li>Hot News</li>
+			  	    	<li>RSS Feeds</li>
+			  	    	<li>Media Info</li>
+			  	    	<li>Environment</li>
+			  	    	<li>Job Opportunities</li>
+			  	    	<li>Contact Us</li>
+	  	    		</ul>
+	  	    	 </div>
+	  	    	 <div class = "copyright"> Copyright © 2014 Apple Inc. All rights reserved. Terms of UsePrivacy Policy</div>
 	  	    </div>
+	  	    
 	  </div>
       <!-- End Footer-->
+      <script type="text/javascript">
+      	const searchChanger = (searchBar) => {
+      		searchBar.style.background = 'white';
+      		searchBar.style.width = '150px';
+      	}
+      	const searchChanger2 = (searchBar) => {
+      		searchBar.style.background = 'grey';
+      		searchBar.style.width = '100px';
+      	}
+      </script>
 </body>
 </html>
