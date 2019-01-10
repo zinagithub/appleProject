@@ -1,44 +1,138 @@
+@font-face {
+  font-family: 'Myriad';
+  src: url('MyriadPro-Light.woff');
+}
+
+
+
 body
 {
-	background: #DDD;
-	background-image: url('http://placehold.it/400/400') no-repeat top left;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+	font-family: Myriad;
     margin : 0;
     padding: 0;
-    height: 600px
+    height: 600px;
+    background-position: center top;
 }
 
 .container
 {
 	width : 70%;
-	/*height: 600px;*/
+	height: 600px;
 	margin: 0 auto;
-    /*background: green;*/
-    position: relative
+    position: relative;
+ 
+/*    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
 }
 
 .container nav {
-	position: relative;
-	background: #DDD;
+	position: absolute;
+/*	background: #DDD;*/
 	color : black;
-	overflow: hidden
+	overflow: hidden;
+	margin: 10 auto;
+/*	width: 1000px;*/
+	
 }
 .container nav ul {
 	list-style-type: none;
-	padding-left: 10px;
-	padding-right: 10px;
+/*	padding-left: 10px;
+	padding-right: 10px;*/
 	overflow: hidden;
 	background: cyan;
-	
+	background: linear-gradient(to bottom, rgba(144,144,144,1) 0%,rgba(152,152,152,1) 12%,rgba(160,160,160,1) 25%,rgba(141,141,141,1) 39%,rgba(124,124,124,1) 50%,rgba(97,97,97,1) 51%,rgba(107,107,107,1) 60%,rgba(124,124,124,1) 76%,rgba(114,114,114,1) 91%,rgba(109,109,109,1) 100%);
+	border-radius: 5px;
+	padding-left: 0;
+	min-width: 800px;
+	margin: 0 auto;
 }
 .container nav ul li {
-	width : 52px;
+	min-width : 52px;
 	float : left;
-	margin: 10px;
+	text-align: center;
+	align-items: center;
+	/*margin: 10px 10px 30px 0;*/
 	padding: 12px;
+/*	margin-left: 15px;*/
+	color: white;
+	border-right: 1px solid grey;
+	background: linear-gradient(to bottom, rgba(144,144,144,1) 0%,
+		rgba(152,152,152,1) 12%,
+		rgba(160,160,160,1) 25%,
+		rgba(141,141,141,1) 39%,
+		rgba(124,124,124,1) 50%,
+		rgba(97,97,97,1) 51%,
+		rgba(107,107,107,1) 60%,
+		rgba(124,124,124,1) 76%,
+		rgba(114,114,114,1) 91%,
+		rgba(109,109,109,1) 100%);
 }
+
+.container nav ul li:hover {
+	background: linear-gradient(to bottom, rgba(87,87,87,1) 0%,rgba(99,99,99,1) 12%,rgba(111,111,111,1) 25%,rgba(82,82,82,1) 39%,rgba(57,57,57,1) 50%,rgba(15,15,15,1) 51%,rgba(31,31,31,1) 60%,rgba(56,56,56,1) 76%,rgba(42,42,42,1) 91%,rgba(33,33,33,1) 100%);
+	cursor: pointer;
+}
+
+.container nav ul li input{
+	width: 100px;
+	margin-left: 0; 
+	background: linear-gradient(to bottom, rgba(144,144,144,1) 0%,
+		rgba(152,152,152,1) 12%,
+		rgba(160,160,160,1) 25%,
+		rgba(141,141,141,1) 39%,
+		rgba(124,124,124,1) 50%,
+		rgba(97,97,97,1) 51%,
+		rgba(107,107,107,1) 60%,
+		rgba(124,124,124,1) 76%,
+		rgba(114,114,114,1) 91%,
+		rgba(109,109,109,1) 100%);
+		border: 2px solid grey;
+		border-radius: 10px;
+}
+
 .title {
-	width : 500px;
+	position: relative;
+	width : 600px;
 	height: auto;
 	margin : 0 auto;
-	background: blue
+	clear: both;
+	top: 150px;
+	margin: auto;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+
+.title h1 {
+	font-size: 55px;
+}
+
+.title h2 {
+	font-size: 30px;
+}
+
+.title h3 {
+	font-size: 20px;
+}
+
+.kindIphone {
+	position: relative;
+/*    z-index: 1;*/
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1300px;
+    width: 100%;
+/*    max-width: 1440px;*/
+    height: 200px;
+    text-align: center;
+}
+
+
+.kindIphone img{
+	width: 300px;
 }
