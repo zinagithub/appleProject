@@ -20,24 +20,19 @@ body
 .container
 {
 	width : 70%;
-	height: 600px;
+	height: 475px;
 	margin: 0 auto;
     position: relative;
- 
-/*    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; */
 }
 
 .container nav {
 	position: absolute;
-/*	background: #DDD;*/
 	color : black;
 	overflow: hidden;
-	margin: 10 auto;
-/*	width: 1000px;*/
-	
+	margin-left: 10%;
+	margin-right: 10%;
+	/*left : 20%;	
+	right: 20%;*/
 }
 .container nav ul {
 	list-style-type: none;
@@ -93,6 +88,7 @@ body
 		rgba(109,109,109,1) 100%);
 		border: 2px solid grey;
 		border-radius: 10px;
+	    box-shadow: rgba(0,0,0,0.3) 0 1px 2px	
 }
 
 .title {
@@ -122,17 +118,54 @@ body
 
 .kindIphone {
 	position: relative;
-/*    z-index: 1;*/
     overflow: hidden;
     margin: 0 auto;
     min-width: 1300px;
     width: 100%;
-/*    max-width: 1440px;*/
     height: 200px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 
 .kindIphone img{
 	width: 300px;
+}
+
+.container1{
+	width : 60%;
+	margin : 0 auto;
+	margin-bottom: 20px;
+}
+.footer{
+	padding: 5px
+}
+.info {
+	display : flex;
+	font-size: 10px;
+}
+
+.info ul {
+   list-style: none;
+   padding-left: 5px;
+}
+.info ul li {
+
+	float : left;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid gray;
+}
+span {
+	color : blue;
+}
+span a {
+	text-decoration: none;
+}
+a : hover{
+	text-decoration: underline;
+}
+.copyright {
+	font-size: 10px;
 }
