@@ -6,44 +6,37 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-	  <!-- Start header div -->	   
+<body>  
 	  <div  class = "container">
 	  	   	<nav>
 	  	   	     <ul>
-	  	   	     	<li><i class="fa fa-apple"></i> </li>
-	  	   	     	<li>Store</li>
-	  	   	     	<li>Mac</li>
-	  	   	     	<li>iPod</li>
-	  	   	     	<li>iPhone</li>
-	  	   	     	<li>iPad</li>
-	  	   	     	<li>iTunes</li>
-	  	   	     	<li>support</li>
-	  	   	     	<li><input onfocus="searchChanger(this)" onblur="searchChanger2(this)" type="text" name="search"></li>
+	  	   	     	<li class = 'menuHover'><i class="fa fa-apple"></i> </li>
+	  	   	     	<li class = 'menuHover'>Store</li>
+	  	   	     	<li class = 'menuHover'>Mac</li>
+	  	   	     	<li class = 'menuHover'>iPod</li>
+	  	   	     	<li class = 'menuHover'>iPhone</li>
+	  	   	     	<li class = 'menuHover'>iPad</li>
+	  	   	     	<li class = 'menuHover'>iTunes</li>
+	  	   	     	<li class = 'menuHover'>support</li>
+	  	   	     	<li id='searchList'><input id='search' onfocus="searchChanger(this)" onblur="searchChanger2(this)" type="text" name="search"></li>
 	  	   	     </ul>
 	  	   	</nav>
 	  	   	<div  class= "title">
-	  	   		<h1>What will your verse to be?</h1>
-	  	   		<h2>Every one has some thing to share iPad in their unique way to add to the worls story</h2>
-	  	   		<h3>Watch the "Your Verse" film and explore the story</h3>
+	  	   		<p id ='firstLine'>What will your verse to be?</p>
+	  	   		<p id = 'secondLine'>Every one has some thing to share iPad in their unique way to add to the worls story</p>
+	  	   			<a id='link' href="https://www.youtube.com/watch?v=dMCYbY7K4mM">
+	  	   			Watch the "Your Verse" film and explore the story
+	  	   			</a>
 	  	   	</div>
 	  </div>
 
-	  
-	  <!-- End header div   -->
-
-
-	  <!-- Start KindIphone div-->
 	  <div  class = "kindIphone">
 	  	    <img id = "img1" src="img1.jpg" alt ="img1">
 	  	    <img id = "img2" src="img2.jpg" alt ="img2">
 	  	    <img id = "img3" src="img3.jpg" alt ="img3">
 	  	    <img id = "img4" src="img4.jpg" alt ="img4">
 	  </div>
-	  <!-- End KindIphone div -->
 
-
-	  <!-- The Footer-->
 	  <div  class = "footer">
 	  	    <div class = "container1">
 	  	    	 <div class = "info">
@@ -62,14 +55,14 @@
 	  	    </div>
 	  	    
 	  </div>
-      <!-- End Footer-->
+
       <script type="text/javascript">
       	const searchChanger = (searchBar) => {
       		searchBar.style.background = 'white';
       		searchBar.style.width = '150px';
       	}
       	const searchChanger2 = (searchBar) => {
-      		searchBar.style.background = 'grey';
+      		searchBar.style.background = 'linear-gradient(to bottom, rgba(144,144,144,1) 0%, rgba(152,152,152,1) 12%, rgba(160,160,160,1) 25%, rgba(141,141,141,1) 39%, rgba(124,124,124,1) 50%, rgba(97,97,97,1) 51%,rgba(107,107,107,1) 60%,rgba(124,124,124,1) 76%,rgba(114,114,114,1) 91%,rgba(109,109,109,1) 100%)';
       		searchBar.style.width = '100px';
       	}
       </script>
