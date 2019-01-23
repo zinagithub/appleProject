@@ -1,70 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Apple Project</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>  
-	  <div  class = "container">
-	  	   	<nav>
-	  	   	     <ul>
-	  	   	     	<li class = 'menuHover'><i class="fa fa-apple"></i> </li>
-	  	   	     	<li class = 'menuHover'>Store</li>
-	  	   	     	<li class = 'menuHover'>Mac</li>
-	  	   	     	<li class = 'menuHover'>iPod</li>
-	  	   	     	<li class = 'menuHover'>iPhone</li>
-	  	   	     	<li class = 'menuHover'>iPad</li>
-	  	   	     	<li class = 'menuHover'>iTunes</li>
-	  	   	     	<li class = 'menuHover'>support</li>
-	  	   	     	<li id='searchList'><input id='search' onfocus="searchChanger(this)" onblur="searchChanger2(this)" type="text" name="search"></li>
-	  	   	     </ul>
-	  	   	</nav>
-	  	   	<div  class= "title">
-	  	   		<p id ='firstLine'>What will your verse to be?</p>
-	  	   		<p id = 'secondLine'>Every one has some thing to share iPad in their unique way to add to the worls story</p>
-	  	   			<a id='link' href="https://www.youtube.com/watch?v=dMCYbY7K4mM">
-	  	   			Watch the "Your Verse" film and explore the story
-	  	   			</a>
-	  	   	</div>
-	  </div>
+<body> 
+    <!--                Start Container              -->
+	<div  class = "container">
+	  	<nav><!--Start nav-->
+	  	   	<ul>
+	  	   	    <li class = 'menuHover'><i class="fa fa-apple"></i> </li>
+	  	   	    <li class = 'menuHover'>Store</li>
+	  	   	    <li class = 'menuHover'>Mac</li>
+	  	   	    <li class = 'menuHover'>iPod</li>
+	  	   	    <li class = 'menuHover'>iPhone</li>
+	  	   	    <li class = 'menuHover'>iPad</li>
+	  	   	    <li class = 'menuHover'>iTunes</li>
+	  	   	    <li class = 'menuHover'>support</li>
+	  	   	    <li id='searchList'><input id='search' onfocus="searchChanger(this)" onblur="searchChanger2(this)" type="text" name="search"></li>
+	  	   	</ul>
+	  	</nav><!--END  nav-->
 
-	  <div  class = "kindIphone">
-	  	    <img id = "img1" src="img1.jpg" alt ="img1">
-	  	    <img id = "img2" src="img2.jpg" alt ="img2">
-	  	    <img id = "img3" src="img3.jpg" alt ="img3">
-	  	    <img id = "img4" src="img4.jpg" alt ="img4">
-	  </div>
+	  	<div  class= "title"><!--Start title-->
+	  	   	<p id ='firstLine'>What will your verse to be?</p>
+	  	   	<p id = 'secondLine'>Every one has some thing to share iPad in their unique way to add to the worls story</p>
+	  	   	<a href="https://www.youtube.com/watch?v=dMCYbY7K4mM">
+	  	   		Watch the "Your Verse" film and explore the story
+	  	   	</a>
+	  	</div><!--End nav-->
+	</div>
+    <!--               End    Container               -->
 
-	  <div  class = "footer">
-	  	    <div class = "container1">
-	  	    	 <div class = "info">
-	  	    	 	<p>Shop the <span><a href="#">Apple Online Store</a></span> (1-800-MY-APPLE), visit an <span><a href="#">Apple Retail Store</a></span>, or find a reseller.<p>
-	  	    	 	<ul>
-			  	    	<li><span><a href="#">Site Map</a></span></li>
-			  	    	<li><span><a href="#">Hot News</a></span></li>
-			  	    	<li><span><a href="#">RSS Feeds</a></span></li>
-			  	    	<li><span><a href="#">Media Info</a></span></li>
-			  	    	<li><span><a href="#">Environment</a></span></li>
-			  	    	<li><span><a href="#">Job Opportunities</a></span></li>
-			  	    	<li><span><a href="#">Contact Us</a></span></li>
-	  	    		</ul>
-	  	    	 </div>
-	  	    	 <div class = "copyright"> Copyright © 2014 Apple Inc. All rights reserved.<span><a href="#"> Terms of Use</a></span> <span style ="color : gray">|</span> <span><a href="#">Privacy Policy</a></span></div>
-	  	    </div>
-	  	    
-	  </div>
-
-      <script type="text/javascript">
-      	const searchChanger = (searchBar) => {
-      		searchBar.style.background = 'white';
-      		searchBar.style.width = '150px';
-      	}
-      	const searchChanger2 = (searchBar) => {
-      		searchBar.style.background = 'linear-gradient(to bottom, rgba(144,144,144,1) 0%, rgba(152,152,152,1) 12%, rgba(160,160,160,1) 25%, rgba(141,141,141,1) 39%, rgba(124,124,124,1) 50%, rgba(97,97,97,1) 51%,rgba(107,107,107,1) 60%,rgba(124,124,124,1) 76%,rgba(114,114,114,1) 91%,rgba(109,109,109,1) 100%)';
-      		searchBar.style.width = '100px';
-      	}
-      </script>
+    <!--               Start  Kind Iphone             -->
+	<div  class = "kind-iphone">
+	  	    <img id = "img1" src="img/img1.jpg" alt ="img1">
+	  	    <img id = "img2" src="img/img2.jpg" alt ="img2">
+	  	    <img id = "img3" src="img/img3.jpg" alt ="img3">
+	  	    <img id = "img4" src="img/img4.jpg" alt ="img4">
+	</div>
+    <!--               END   Kind Iphone              -->
+    
+    <!--               Start Footer                   -->
+	<div  class = "footer">
+	  	<div class = "container1"><!--Start container1-->
+	  	    <div class = "info"><!--start info-->
+	  	    	<p>Shop the <span><a href="#">Apple Online Store</a></span> (1-800-MY-APPLE), visit an <span><a href="#">Apple Retail Store</a></span>, or find a reseller.<p>
+	  	    	<ul>
+			  	    <li><span><a href="#">Site Map</a></span></li>
+			  	    <li><span><a href="#">Hot News</a></span></li>
+			  	    <li><span><a href="#">RSS Feeds</a></span></li>
+			  	    <li><span><a href="#">Media Info</a></span></li>
+			  	    <li><span><a href="#">Environment</a></span></li>
+			  	    <li><span><a href="#">Job Opportunities</a></span></li>
+			  	    <li><span><a href="#">Contact Us</a></span></li>
+	  	    	</ul>
+	  	    </div><!--End info-->
+	  	    <div class = "copyright"><!--start copyright--> 
+	  	    	Copyright © 2014 Apple Inc. All rights reserved.<span><a href="#"> Terms of Use</a></span> <span style ="color : gray">|</span> <span><a href="#">Privacy Policy</a></span>
+	  	    </div><!--End copyright-->
+	  	</div><!--End container1-->
+	</div>
+    <!--             END Footer                      --> 
+    <script type ="text/javascript" src="js/apple.js"></script>
 </body>
 </html>
